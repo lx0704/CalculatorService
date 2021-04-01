@@ -24,6 +24,6 @@ public class TestCalculator {
 		//Tell Mockito that the expected return value is 5
 		//when(service.addHelper(2, 3)).thenReturn(5);
 		// 2 and 3		
-		assertEquals(20, c.SumSqure(2,3));
+		assertEquals(25, c.SumSqure(2,3));
 	}
 }
